@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: Maha@143
+    url: jdbc:mysql://localhost:3306/cfss
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
